@@ -28,6 +28,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -43,6 +45,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 .botao_secundario {
@@ -59,4 +62,33 @@ body {
 .container__titulo {
     font-size: 1.75rem;
     font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1rem 0 2rem; 
+}
+
+.container__div{
+    margin: 0 6rem;
+}
+
+.secundario__imagem{
+    width: 80%;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 9%;
+}
+
+.descricao__titulo{
+    font-size: 3rem;
+    color: var(--branco-principal);
+    font-weight: 700;
+}
+
+.descricao__texto{
+    font-size: 1rem;
+    color: var(--cinza-secundário);
+    margin: 0.3rem 0 0 0;
 }
