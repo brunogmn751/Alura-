@@ -92,3 +92,30 @@ body {
     color: var(--cinza-secundário);
     margin: 0.3rem 0 0 0;
 }
+
+.terciario{
+    align-items: center;
+    margin: 0 9%;
+}
+
+.combo__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    text-align: center;
+}
+
+.combo__texto{
+    font-size: 1rem;
+    color: var(--cinza-secundário);
+    margin-bottom: 2rem;
+}
+
+.imagem__imagem{
+    width: 90%;
+}
+
+.terciario__imagem{
+    text-align: center;
+}
