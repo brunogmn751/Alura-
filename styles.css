@@ -119,3 +119,61 @@ body {
 .terciario__imagem{
     text-align: center;
 }
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type:none ;
+    color: var(--branco-principal);
+}
+
+.dispositivos{
+    text-align: center;
+    height: 70vh;
+}
+
+.dispositivos__titulo{
+    font-size: 2rem;
+    margin: 0 0 2.5rem 0;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 1.5rem;
+}
+
+.lista__imagens{
+    height:70% ;
+    margin: 0 0 0.5rem 0;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape__logo{
+    scale: .75;
+    margin-bottom: 1.5rem;
+}
+
+.rodape__lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.rodape__link{
+    text-decoration: none;
+    font-size: .8rem;
+    color: var(--branco-principal);
+}
+
+.rodape__item {
+    margin: 0 .5rem;
+}
+
+.rodape__texto{
+    font-size: .6rem;
+    color: var(--cinza-secundário);
+    margin: 1.5rem 11rem;
+}
